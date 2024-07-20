@@ -1,11 +1,12 @@
 [tool.poetry]
-name = "template"
+name = "fitsync"
 version = "0.1.0"
 description = ""
 authors = ["kundziorro <mateusz.baranczyk@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.12"
+requests = "^2.32.3"
 
 [tool.poetry.dev-dependencies]
 black = "^24.4.2"
